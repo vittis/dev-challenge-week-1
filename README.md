@@ -60,8 +60,10 @@ On a successfull register or login, the API response is a JSON containing a JWT 
 
 - ``/register``
     - Show a form for user sign up
+    - If user is already logged in, redirect to ``/``
 - ``/login``
     - Show a form for user sign in
+    - If user is already logged in, redirect to ``/``
 - ``/posts``
     - Lists all posts
     - Button that display a form when clicked to create a new post
@@ -74,4 +76,4 @@ On a successfull register or login, the API response is a JSON containing a JWT 
 
 There should be a navbar present in all routes which links to all routes above.
 
-If a request fails, show in the UI the error from API.
+If a request fails, show in the UI the error from API if available, else show a generic error message.
