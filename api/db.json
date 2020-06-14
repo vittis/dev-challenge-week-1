@@ -1,28 +1,4 @@
 {
-  "users": [
-    {
-      "email": "tesasd@asd.co",
-      "password": "$2a$10$UNCcQQ5AT.R6LNmYxs12vuOFIRFtyqgcrTCvgwJzxQlNUZSVxoOCi",
-      "id": 1
-    },
-    {
-      "email": "tesasxd@asd.co",
-      "password": "$2a$10$c1xE/WSB7OctVsksgF8yLOJ1ebfSkpWB2gP0AsKpr5lvmO8VbdCYu",
-      "id": 2
-    }
-  ],
-  "posts": [
-    {
-      "id": 1,
-      "title": "sam"
-    },
-    {
-      "id": 2,
-      "title": "xiba"
-    },
-    {
-      "title": "ccc",
-      "id": 3
-    }
-  ]
+  "users": [],
+  "posts": []
 }
