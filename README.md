@@ -41,7 +41,7 @@ On a successfull register or login, the API response is a JSON containing a JWT 
   - Public access
 
 - POST ``/664/posts``
-  - Lists all posts
+  - Adds a new post
   - Needs authorization header
   - Body Payload
   ```json
@@ -49,6 +49,10 @@ On a successfull register or login, the API response is a JSON containing a JWT 
             title: string;
         }
     ```
+
+- DELETE ``/664/posts/{id}``
+  - Deletes a post
+  - Needs authorization header
 
 ## Client overview
 
@@ -61,6 +65,8 @@ On a successfull register or login, the API response is a JSON containing a JWT 
 - ``/posts``
     - Lists all posts
     - Button that display a form when clicked to create a new post
+    - Button to delete the post
+    - Show a message if there are no posts to show
 - ``/users``
     - Lists all users
 - ``/``
